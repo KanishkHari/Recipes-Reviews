@@ -59,36 +59,13 @@ For our univariate analysis plot, we decided to analyze the proportion of high p
   ### Interesting Aggregates
   For this section, we decided to investigate the relationship between `minutes`, `average_rating`, `high_protein` and see if there is a relationship between the cooking times of `high_protein` and `high_fat` recipes, and if this cooking time is correlated with their average ratings. 
 
-|   average_rating |      False |       True |
-|------------------|------------|------------|
-|          1       |   88.0562  |   111.733  |
-|          1.33333 |  nan       |    20      |
-|          1.5     |   40.6296  |    44.4444 |
-|          1.66667 |   25       |   nan      |
-|          1.75    |   35       |   nan      |
-|          1.8     |    5       |   nan      |
-|          2       |   76.0945  |   116.328  |
-|          2.13333 |   37       |   nan      |
-|          2.16667 |  nan       |   375      |
-|          2.25    |   17.5385  |   nan      |
-|          2.28571 |   15       |   nan      |
-|          2.33333 |  126.235   |   150.263  |
-|          2.4     |   20       |    25      |
-|          2.5     |   97.5148  |   186.512  |
-|          2.5625  |   20       |   nan      |
-|          2.6     |   26.8462  |   nan      |
-|          2.66667 |  205.771   |    98.4468 |
-|          2.75    |   34.8462  |    89      |
-|          2.8     |   20       |   nan      |
-|          2.83333 |   15.4286  |   nan      |
-|          2.85714 |   20       |   nan      |
-|          2.875   |   35       |   nan      |
-|          3       |  120.542   |    94.3872 |
-...
-|          4.97727 |  nan       |    45      |
-|          4.98113 |  nan       |    35      |
-|          4.99078 |  nan       |    75      |
-|          5       |  125.083   |    90.7457 |
+|   average_rating |    False |     True |
+|------------------|----------|----------|
+|          1       |  88.0562 | 111.733  |
+|          1.33333 | nan      |  20      |
+|          1.5     |  40.6296 |  44.4444 |
+|          1.66667 |  25      | nan      |
+|          1.75    |  35      | nan      |
 
 We wanted to see the average ratings of recipes that have or don’t have high protein.  
 From the pivot table, we observed that high-protein recipes appear more frequently across a wider range of average ratings, including both low and high ends of the scale. Notably:
