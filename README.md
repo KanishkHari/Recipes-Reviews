@@ -48,16 +48,16 @@ For our univariate analysis plot, we decided to analyze the proportion of high p
   height="600"
   frameborder="0"></iframe>
 
-  ### Bivariate Analysis
-  For our univariate analysis plot, we decided to analyze the distribution of high protein recipes to non-high-protein recipes
+### Bivariate Analysis
+For our univariate analysis plot, we decided to analyze the distribution of high protein recipes to non-high-protein recipes
   <iframe
   src="assets/bivariate-protein.html"
   width="800"
   height="600"
   frameborder="0"></iframe>
 
-  ### Interesting Aggregates
-  For this section, we decided to investigate the relationship between `minutes`, `average_rating`, `high_protein` and see if there is a relationship between the cooking times of `high_protein` and `high_fat` recipes, and if this cooking time is correlated with their average ratings. 
+### Interesting Aggregates
+For this section, we decided to investigate the relationship between `minutes`, `average_rating`, `high_protein` and see if there is a relationship between the cooking times of `high_protein` and `high_fat` recipes, and if this cooking time is correlated with their average ratings. 
 
 |   average_rating |    False |     True |
 |------------------|----------|----------|
