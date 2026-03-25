@@ -106,6 +106,7 @@ For missingness dependency, we chose to examine the missingness of the `average_
   Our second comparison is with `average_rating` and `minutes`.
 
   **Null Hypothesis** : The missingness of average ratings does not depend on the number of minutes taken to cook the recipe.
+  
   **Alternative Hypothesis**: The missingness of average ratings does depend on the number of minutes taken to cook the recipe.
   <iframe
   src="assets/kde_plotly.html"
@@ -122,7 +123,7 @@ For missingness dependency, we chose to examine the missingness of the `average_
 
   Here, we see that the observed value (0) is indicated by the red line. Since the p-value (0.604) is greater than 0.05, **we fail to reject the null hypothesis**. The missingness of rating does not depend on the number of calories a given recipe has. 
 
-  ## Hypothesis Testing
+## Hypothesis Testing
   For this hypothesis test, we aim to determine whether there is a significant difference in the likelihood of a recipe receiving a high rating based on whether it is high-protein or not. This question is relevant because users may perceive high-protein recipes as healthier or more desirable, which could influence their ratings. Understanding this relationship can offer insight into user preferences and how nutritional content affects recipe success.
   
   We chose this pair of hypotheses out of interest in how nutrition influences user behavior, and because it could help us better understand the distribution of ratings in relation to nutritional factors in the dataset.
@@ -147,7 +148,7 @@ For missingness dependency, we chose to examine the missingness of the `average_
   height="600"
   frameborder="0"></iframe>
 
-  ## Framing a Prediction Problem
+## Framing a Prediction Problem
   After cleaning and exploring the dataset—assessing missingness, feature distributions, and relationships between variables—we decided to aim to **predict a recipe’s preparation time (in minutes)** using its **nutritional content and other available features**.
 
 At the time of prediction, we assume we will have access to features such as **protein**, **fat**, **sugar**, and **calorie values**. This is a **regression problem**, where the response variable is `minutes`.
